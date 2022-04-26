@@ -1,0 +1,398 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.home{
+    background-image: url("../assets/img/backgr.png");
+    background-size:auto;
+}
+body{
+    background-image: url("../assets/img/backgr.png");
+    background-size:auto;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+
+.logo img{
+    height: 150px;
+    margin-right: 40px;
+}
+
+h1{
+    margin: 0%;
+    padding: 10px;
+    background-color: none;
+    color: white;
+    font-family:'Major Mono Display', monospace;
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    text-align: left;
+}
+.h1 span{
+    transition: 1.5s linear;
+}
+
+h2{
+    margin: 1px;
+    padding: 50px;
+    background-color: none;
+    color:rgb(200, 200, 200);
+    font-family:'Major Mono Display', monospace;
+    font-size: 45px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    text-align: left;
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px; 
+    letter-spacing: 10px;
+}
+
+h4 {
+    margin: 20;
+    padding-top: 20px;
+    color:whitesmoke;
+    font-family:'Poiret One', cursive;
+    font-size: 25px;  
+    font-weight:lighter;
+    letter-spacing: 10px;
+    text-decoration: none; 
+}
+
+h5{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+h6{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+
+
+
+.navbar{   
+    background-color: rgba(172, 172, 172, 0.048);
+    padding: 12px;
+    
+    text-decoration: none;
+    list-style: none;
+    width:auto; 
+    text-align: center;    
+    border-radius: 25px;
+    
+    border: 0 none rgba(100, 100, 100, 0.034);
+    padding:10px;
+    border-radius: 8px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 15px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    box-shadow:
+      inset 1px 1px 2px 0px rgb(150, 80, 80),
+      inset -12px -12px 14px 0px rgb(27, 27, 27),
+      8px 8px 6px 0px rgba(0, 0, 0, 1);
+}
+
+
+.nav-link{
+    margin: 0px;
+    padding: 8px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;  
+    font-weight: bolder;
+    letter-spacing: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition:0.5s;
+    flex-wrap: wrap;
+    opacity: 100;
+    transition: 2s;
+}
+ a.nav-link:hover{
+    border-radius: 8px;
+    background-color: rgba(150, 80, 80, 0.329); 
+    text-shadow: 0 1px rgba(150, 80, 80, 0.603),
+    0 0 0px rgb(150, 80, 80),
+    0 0 0px rgb(150, 80, 80);
+ }
+ 
+
+@media (max-width: 350px) {
+    .home {
+        flex-direction: column;
+    }
+}
+
+.text-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    background-color: rgba(150, 80, 80, 0);
+    margin: 30;
+    padding: 50px;
+    color: rgb(180, 180, 180);
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    font-weight:lighter; 
+    letter-spacing: 3px;
+    box-shadow: 0 1px 3px rgb(150, 80, 80); 
+ }   
+
+ p span{
+    transition: 2s  ;
+ }
+
+h2 span{
+    transition: 5s linear;
+}
+
+.col-lg-4{
+    background-color: rgba(245, 245, 245, 0.021);
+    margin-top : 150px;
+    padding: 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formulario {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    background-color:rgb(27, 27, 27); 
+    border-radius: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 30px;
+    color:white;
+    letter-spacing: 8px;
+    line-height: 2;
+    padding: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    border: 0px none rgba(100, 100, 100, 0);
+    border-radius: 20px;
+    background: linear-gradient(
+      180deg,
+      rgb(70, 70, 70) 0%,
+      rgb(25, 25, 25) 100%
+    );
+    box-shadow:
+      inset 4px 1px 8px 0px rgb(150, 80, 80),
+      inset -12px -12px 24px 0px rgb(14, 14, 14),
+      12px 12px 25px 0px rgba(0, 0, 0, 1);
+
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"]{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 90%;
+    padding: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.form-row textarea{
+    background-color:rgba(0, 0, 0, 0.459);
+    border: 1px solid white;
+    border-radius: 15px;
+    max-width: 90%;
+    color: white;
+    font-size: 20px;
+    min-height: 200px;
+    padding: 20px;
+    width:fit-content;
+    resize:none;
+    flex-wrap: wrap;
+}
+
+
+.form-row button {
+    background-color:rgb(44, 44, 44);
+    border: 0 none rgba(100, 100, 100, 0);
+    padding:15px;
+    border-radius: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    color:white;
+    font-size: 20px;
+    letter-spacing: 15px;
+    cursor: pointer;
+
+    box-shadow:
+      inset 4px 0px 4px 0px rgb(150, 80, 80),
+      inset -12px -12px 14px 0px rgb(27, 27, 27),
+      8px 10px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.form-row input:hover {
+    background-color: rgba(130, 130, 130, 0.274);
+}
+.form-row textarea:hover {
+    background-color: rgba(130, 130, 130, 0.39);
+}
+.form-row button:hover {
+    background-color: rgb(95, 95, 95);
+}
+
+
+.card.p-4{
+    background: rgb(37, 37, 37);
+    box-shadow:
+    inset 1px 1px 2px 0px rgb(150, 80, 80),
+    inset -12px -12px 14px 0px rgb(27, 27, 27),
+    8px 8px 8px 0px rgba(0, 0, 0, 1);
+
+}
+
+
+.card-body{
+    background:rgb(37, 37, 37);
+    padding-bottom : 25px;
+    
+
+}
+
+
+
+a.btn.btn-primary {  
+    background-color:rgb(59, 59, 59);
+    border: 0 none rgba(100, 100, 100, 0);
+    padding:10px;
+    border-radius: 8px;
+    font-family: 'Sulphur Point', sans-serif;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    box-shadow:
+      inset 1px 1px 1px 0px rgb(150, 80, 80),
+      inset -10px -12px 14px 0px rgb(27, 27, 27),
+      8px 8px 8px 0px rgba(0, 0, 0, 1);
+
+}
+
+
+button.btn.btn-secondary.bnt-lg.btn-block {
+    background-color:rgb(80, 80, 80);
+    border: 0 none rgba(100, 100, 100, 0);
+    padding:10px;
+    border-radius: 5px;
+    font-family: 'Sulphur Point', sans-serif;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    box-shadow:
+      inset 1px 1px 1px 0px rgb(150, 80, 80),
+      inset -12px -12px 14px 0px rgb(27, 27, 27),
+      4px 4px 4px 0px rgba(0, 0, 0, 1);
+
+}
+
+
+
+footer{
+    background-color: rgba(172, 172, 172, 0.048);
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(150, 80, 80);  
+    text-decoration: none;
+    list-style: none;
+    width:auto; 
+    text-align: center;    
+}
+
+.icons img{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;  
+    border-radius: 10px;
+    height: 40px;
+    padding: 4px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 6px rgb(150, 80, 80); 
+    background-color:rgb(44, 44, 44);
+    border: 0 none rgba(100, 100, 100, 0);
+    border-radius: 8px;
+    font-family: 'Sulphur Point', sans-serif;
+    color:white;
+    font-size: 10px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    box-shadow:
+      inset 1px 1px 1px 0px rgb(150, 80, 80),
+      inset -12px -12px 14px 0px rgb(27, 27, 27),
+      8px 8px 8px 0px rgba(0, 0, 0, 1);
+  
+}
+
+.icons img:hover{
+    background-color: none;
+    box-shadow: 0 3px 5px rgb(150, 80, 80),
+    0 0 5px rgb(150, 80, 80),
+    0 0 5px rgb(150, 80, 80);
+ }
+
+
+
+
+
+
+.flip-card{
+    margin: 20px;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.flip-card-front, .flip-card-back{
+    width: 300px;
+    min-height: 500px;
+    height:auto;
+    background-color:palevioletred;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 5s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.flip-card-front{
+    transform:rotateY(0deg);
+}
+
+.flip-card-back{
+    position: absolute;
+    top:0;
+    left:0;
+
+}

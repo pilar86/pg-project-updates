@@ -1,0 +1,26 @@
+footer{
+    list-style: none;
+    background-color:rgba(252, 250, 250, 0.082);
+    width:auto;
+    border-block: 1px solid white;  
+    text-align: center;    
+}
+
+.icons img{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;
+    background-color:rgb(100, 100, 100);
+    border-radius: 10px;
+    height: 40px;
+    padding: 1px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.icons img:hover {
+    background-color: rgb(75, 75, 75);
+    text-shadow: 0 0 15px white,
+    0 0 20px white,
+    0 0 50px white;
+}

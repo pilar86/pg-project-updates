@@ -1,0 +1,37 @@
+body {
+    background-image: url(../assets/img/backgr.png);
+    size: auto;
+  }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        flex-wrap: wrap;
+        transition: 1s;
+      }
+    .logo img {
+        height: 150px;
+        margin-right: 50px;
+      }
+
+      h1 {
+        margin: 0%;
+        padding: 10px;
+        background-color: none;
+        color: white;
+        font-family:'Major Mono Display', monospace;
+        font-size: 60px;
+        font-weight: lighter;
+        letter-spacing: 10px;
+        text-align: left;
+        flex-wrap: wrap;
+      }  
+
+      .h1 span{
+        transition: 1.5s linear;
+    }
+
