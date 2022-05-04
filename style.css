@@ -8,29 +8,43 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        padding:0px;
+        padding:5px;
         flex-wrap: wrap;
         transition: 1s;
     }
     h1 span{
         width:90px;
-        font-size: 35px;
-        text-align: center;
+        font-size: 30px;
+        justify-content:center;
+        
     }
    
-    h2 { 
+    h2.text-center { 
         font-family: 'Major Mono Display', monospace;
-        font-size: 15px;
+        font-size: 35px;
         letter-spacing: 2px;
         text-align: center;
     }
+
+    p span {
+        font-size: 20px;
+        letter-spacing:2px;
+    }
+    .equipo p{
+        font-size: 20px;
+    }
+
     
-    h3 {
+    h3 span {
         font-family: 'Poiret One', cursive;
         font-size: 25px;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
     }
-    
+
+    .text-container.text-container {
+        padding: 10px;
+    }
+
     
    .form {
        margin:auto;
@@ -39,14 +53,17 @@
        text-align: center;
    }
 
-   .text-container .my-3 .py-5 .text-center{
+   .text-container .my-3 .py-5 .text-center {
     margin:auto;
-    width: 90%;
+    padding: 20px;
+    width: 100%;
     max-width:350px;
     text-align: center;
    }
 
+   
 }
+
 
 .home{
     background-image: url("./assets/img/backgr.png");
@@ -73,16 +90,15 @@ body{
     margin-right: 30px;
 }
 
-h1{
+h1 {
     margin: 0%;
     padding: 10px;
-    background-color: none;
     color: white;
     font-family:'Major Mono Display', monospace;
     font-size: 50px;
     font-weight: lighter;
     letter-spacing: 10px;
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
 }
 .h1 span{
@@ -91,8 +107,8 @@ h1{
 
 h2{
     margin: 1px;
-    padding: 50px;
-    font-size: 45px;
+    padding: 40px;
+    font-size: 40px;
     background-color: none;
     color:rgb(200, 200, 200);
     font-family:'Major Mono Display', monospace; 
@@ -113,17 +129,17 @@ h4 {
     padding-top: 20px;
     color:whitesmoke;
     font-family:'Poiret One', cursive;
-    font-size: 25px;  
+    font-size: 30px;  
     font-weight:lighter;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-decoration: none; 
 }
 
 h5{
     color: white;
     font-family: 'Poiret One', cursive;
-    font-size: 25px;
-    letter-spacing: 3px;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 
 h6{
@@ -144,13 +160,11 @@ p{
 .navbar{   
     background-color: rgba(172, 172, 172, 0.048);
     padding: 12px;
-    
     text-decoration: none;
     list-style: none;
     width:auto; 
     text-align: center;    
     border-radius: 25px;
-    
     border: 0 none rgba(100, 100, 100, 0.034);
     padding:10px;
     border-radius: 8px;
@@ -411,13 +425,13 @@ footer{
 
 
  .container2 .card{
-    width: 1000px;
+    width:300px;
+    height:200px;
     position: relative;
     display: flex;
     justify-content: center;
     position:relative;
-    width:300px;
-    height:200px;
+   
 }
 
 .container2 .card .face{
@@ -464,6 +478,9 @@ footer{
     transform: translateY(0%) rotateX(0deg);
 }
 
+.btn-center {
+    text-decoration: none;
+}
  
 .btn-grad {
     background-image: linear-gradient(to right, #DE6262 0%, #FFB88C  51%, #DE6262  100%)
@@ -472,6 +489,7 @@ footer{
 .btn-grad {
    margin: 10px;
    padding: 10px 30px;
+   display: flex;
    text-align: center;
    justify-content: center;
    text-transform: uppercase;
